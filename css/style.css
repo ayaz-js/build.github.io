@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: #e5e5e5;
+}
+
+.btn {
+  background: #212b31;
+  border: 1px solid #212b31;
+  border-radius: 4px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.header {
+  padding: 31px;
+}
+
+.header__container {
+  max-width: 1378px;
+}
+
+.header__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__nav-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__nav-item li {
+  margin-right: 22px;
+}
+
+.header__nav-item li a {
+  text-decoration: none;
+  color: #000;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.header__nav-item li a:hover {
+  color: #036fc7;
+}
+
+.header__btn {
+  color: #fff;
+  width: 143px;
+  height: 34px;
+}
+
+.header__btn:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16);
+}
+
+.top {
+  text-align: center;
+}
+
+.top__title {
+  text-align: center;
+  margin-top: 170px;
+  font-size: 48px;
+  font-weight: 300;
+}
+
+.top__btn {
+  margin-top: 30px;
+  width: 166px;
+  height: 50px;
+  color: #fff;
+  font-size: 17px;
+}
+
+.top__btn:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16);
+}
+
+.top__white-btn {
+  color: #000;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border: 1px solid #dadedf !important;
+}
+
+.top__white-btn:focus {
+  outline: none;
+}
+
+.top__img-city {
+  margin-top: 88px;
+}
+
+.top__img-car {
+  margin-top: 36px;
+}
+
+.features {
+  margin-top: 148px;
+}
+
+.features__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+.features__title {
+  margin-top: 32px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.features__text {
+  display: block;
+  color: #72787d;
+  margin-top: 10px;
+  font-size: 16px;
+}
+/*# sourceMappingURL=style.css.map */
