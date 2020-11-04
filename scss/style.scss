@@ -105,6 +105,9 @@ body {
         flex-direction: column;
         align-items: center;
         margin-top: 88px;
+        img {
+            max-width: 100%;
+        }
     }
 
     &__img-car {
@@ -160,10 +163,12 @@ body {
     }
 
     &__img {
-        display: block;
-        margin: 0 auto;
         margin-top: 40px;
         margin-bottom: 144px;
+        text-align: center;
+        img {
+            max-width: 100%;
+        }
     }
 
     &__description {
@@ -198,6 +203,8 @@ body {
                 width: 250px;
                 height: 16px;
                 top: 55%;
+                left: 50%;
+                transform: translate(-100%);
                 z-index: -1;
             }
         }

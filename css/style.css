@@ -127,6 +127,10 @@ body {
   margin-top: 88px;
 }
 
+.top__img img {
+  max-width: 100%;
+}
+
 .top__img-car {
   margin-top: 36px;
 }
@@ -183,10 +187,13 @@ body {
 }
 
 .first__img {
-  display: block;
-  margin: 0 auto;
   margin-top: 40px;
   margin-bottom: 144px;
+  text-align: center;
+}
+
+.first__img img {
+  max-width: 100%;
 }
 
 .first__description {
@@ -226,6 +233,9 @@ body {
   width: 250px;
   height: 16px;
   top: 55%;
+  left: 50%;
+  -webkit-transform: translate(-100%);
+          transform: translate(-100%);
   z-index: -1;
 }
 
