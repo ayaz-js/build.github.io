@@ -158,4 +158,59 @@ body {
         text-align: center;
         color: #72787d;
     }
+
+    &__img {
+        display: block;
+        margin: 0 auto;
+        margin-top: 40px;
+        margin-bottom: 144px;
+    }
+
+    &__description {
+        margin-top: 168px;
+        display: flex;
+        justify-content: space-around;
+
+        &-title {
+            font-size: 32px;
+            line-height: 1.5;
+            color: #212B31;
+        }
+
+        &-text {
+            display: block;
+            margin-top: 16px;
+            font-size: 20px;
+            line-height: 1.5;
+            color: #72787d;
+        }
+
+        &-item {
+            position: relative;
+            margin-top: 28px;
+            font-size: 20px;
+
+            &::after {
+                content: '';
+                position: absolute;
+                background: #ffd042;
+                display: block;
+                width: 250px;
+                height: 16px;
+                top: 55%;
+                z-index: -1;
+            }
+        }
+    }
+
+    &__slider {
+        margin-top: 128px;
+
+        &-container {
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+    }
+
 }
