@@ -353,4 +353,23 @@ body {
   max-width: 270px;
   margin-top: 11px;
 }
+
+.delivery__bottom-text {
+  position: relative;
+  margin-top: 22px;
+  text-align: center;
+  color: #72787d;
+}
+
+.delivery__bottom-text span {
+  color: #000;
+}
+
+.delivery__bottom-text ::before {
+  position: absolute;
+  content: '...';
+  display: block;
+  left: 25%;
+  top: -3px;
+}
 /*# sourceMappingURL=style.css.map */

@@ -309,4 +309,32 @@ body {
             margin-top: 11px;
         }
     }
+    &__bottom-text {
+        position: relative;
+        margin-top: 22px;
+        text-align: center;
+        color: #72787d;
+        span {
+            color: #000;
+            // &::after {
+            //     content: '';
+            //     position: absolute;
+            //     background: #ffd042;
+            //     display: block;
+            //     width: 250px;
+            //     height: 16px;
+            //     top: 55%;
+            //     left: 50%;
+            //     transform: translate(-100%);
+            //     z-index: -1;
+            // }
+        }
+        ::before {
+            position: absolute;
+            content: '...';
+            display: block;
+            left: 25%;
+            top: -3px;
+        }
+    }
 }
