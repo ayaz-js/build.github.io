@@ -338,3 +338,20 @@ body {
         }
     }
 }
+
+.reliability {
+    &__container {
+        text-align: center;
+        margin-top: 145px;
+    }
+    &__title {
+        font-size: 32px;
+        font-weight: 400;
+    }
+    &__text {
+        margin-top: 17px;
+        font-size: 20px;
+        color: #72787D;
+        line-height: 32px;
+    }
+}
