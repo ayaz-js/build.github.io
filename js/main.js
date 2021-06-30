@@ -5,3 +5,5 @@ let swiper = new Swiper('.swiper-container', {
         delay: 3000,
       },
 });
+
+alert('Твой сын гандон');
